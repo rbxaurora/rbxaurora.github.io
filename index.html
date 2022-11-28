@@ -1,136 +1,212 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AURORA TEAM - Хаус, созданный для Вас</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <script src="https://kit.fontawesome.com/841758b748.js" crossorigin="anonymous"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AURORA TEAM - Хаус, созданный для Вас</title>
+	<link rel="icon" href="favicon.png">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__navbar">
-                <div class="header__logo">
-                    <a href="#!" class="header__name-site">AURORA<br>TEAM</a>
-                </div>
-                <nav id="nav" class="nav">
-                    <ul class="header__navmenu">
-                        <li class="header__menu-item">
-                            <a href="#!" class="header__menu-link header__menu-frs">Главная</a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="#forus" class="header__menu-link">О нас</a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="#contacts" class="header__menu-link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="#anketa" class="header__btn">Вступить в Хаус</a>
-            </div>
-        </div>
-    </header>
-
-    <div class="header__stage">
-        <div class="container">
-            <div class="stage__content">
-                <div class="stage__text">
-                    <p class="stage__title">Наша команда ждет<br>именно <span class="stage__title-span">тебя!</span></p>
-                    <p class="header__subtitle">Вступай к нам в Хаус, не упусти<br>свой шанс!</p>
-                    <a href="#anketa" class="header__btn stage-btn">Вступить в Хаус</a>
-                </div>
-                <div class="stage__image">
-                    <img src="img/stage-img.png" alt="stage img">
-                </div>
-            </div>
-        </div>
+	<header>
+		<nav class="navbar pt-4 navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">AURORA <br> TEAM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <a href="#!" class="btn btn-outline-secondary disabled">Вход для участников</a>
     </div>
+  </div>
+</nav>
+	</header>
 
-    <main class="main">
-        <div class="container">
-            <div id="forus" class="main__about-us">
-                <div class="about-us__image">
-                    <img src="img/party-popper.png" alt="party-popper">
-                    <p class="about-us__numb">2</p>
-                </div>
-                <div class="about-us__text">
-                    <p class="main__about-title">30 декабря нам<br><span class="main__about-title-span">исполняется 2 года!</span></p>
-                    <p class="about-us__subtext">
-                        Совсем скоро нашему Хаусу исполнится 2 года!<br>На протяжении столь большого времени мы <br>радовали Вас своим контентом. Хотим сказать <br>Вам большое спасибо, что Вы смотрите нас <br>и принимаете участие в отборах. <br>Мы продолжаем оставаться с Вами!
-                    </p>
-                </div>
-            </div>
-            <div id="anketa" class="main__chat-bot">
-                <div class="chat_bot__text">
-                    <p class="chat-bot__title">Наш <span class="chat-bot__title-span">чат-бот для анкет</span></p>
-                    <p class="chat-bot__subtext">
-                        Проверит Вашу анкету за 1 минуту, без <br>лишних ожиданий! Нажмите на <br>кнопку ниже и пишите анкету прямо сейчас.
-                    </p>
-                    <ul class="chat-bot__crit">
-                        <li class="crit__item">
-                            <p class="crit__title">У тебя есть все шансы попасть к нам!</p>
-                            <p class="crit__subtext">У нас нет особых критериев к отбору, <br>поэтому Вы сможете легко попасть к нам!</p>
-                        </li>
-                        <li class="crit__item crit-sortdown-1">Нам не важен стиль твоего скина.</li>
-                        <li class="crit__item crit-sortdown-2">Донатер ты или нет не имеет значения.</li>
-                        <li class="crit__item crit-sortdown-3">Мы не требуем большого количества подписчиков в TikTok.</li>
-                    </ul>
-                    <a href="https://t.me/AuroraaTeamBot" class="chat-bot__btn">Чат-Бот</a>
-                </div>
-                <div class="chat-bot__image">
-                    <img src="img/chat-bot.png" alt="chat bot">
-                </div>
-            </div>
-            <div id="contacts" class="main__telegram-channel">
-                <div class="channel__image">
-                    <img src="img/telegram-channel.png" alt="tg channel">
-                </div>
-                <div class="channel__text">
-                    <p class="channel__title">
-                        <span class="channel__title-span">Новости</span> нашего Хауса
-                    </p>
-                    <p class="channel__subtext">
-                        Подписывайся на наш Telegram-канал, <br>чтобы быть вкурсе всех новостей. <br>Там мы расскажем Вам о всех <br>близжайших наборах, новых видео и о многом другом!
-                    </p>
-                    <p class="channel__subitem">Также у нас есть чат для <br>подписчиков, где Вы можете пообщаться <br>с другими подписчиками и <br>даже с участниками Хауса!</p>
-                    <div class="channel__btns">
-                        <a href="https://t.me/rbx_aurora" class="channel__btn">Наш TG-канал</a>
-                        <a href="https://t.me/auroraa_team" class="chatforsubs__btn">Наш чат для подписчиков</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+	<main>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 justify-content-between main-intro">
+				<div class="col intro-text">
+					<h1 class="intro-title">Наша команда <br> ждет <br> именно <span class="blue">тебя!</span></h1>
+					<p class="intro-subtitle">
+						Вступай к нам в Хаус, не упусти <br> свой шанс!
+					</p>
+					<a href="#entry" class="intro-button">Вступить в Хаус</a>
+				</div>
+				<div class="col stage-img">
+					<img src="assets/stage-img.png" alt="" class="img-stage">
+				</div>
+			</div>
+		</div>
 
-    <footer class="footer">
-        <div class="container__footer">
-            <div class="footer__main">
-                <div class="footer__logo">
-                    <p class="footer__sitename">AURORA <br> TEAM</p>
-                    <p class="footer__sologan">Хаус, созданный для Вас</p>
-                </div>
-                <div class="footer__for">
-                    <p class="footer_for-title">Раздел для потребителей</p>
-                    <a href="/for-members/for-members.html" class="footer__for-members">Для участников</a>
-                    <a href="/error.html" class="footer__for-houses">Для Хаусов</a>
-                </div>
-            </div>
-            <hr class="footer__hr">
-            <div class="footer_copy">
-                <p class="copy__years">AURORA TEAM. 2020-2022</p>
-            </div>
-        </div>
-    </footer>
+		<div class="about-us" id="about-us">
+			<div class="container">
+				<div class="row row-cols-1 row-cold-md-2 row-cols-lg-2 justify-content-between about-us-stage">
+					<div class="col party-popper">
+						<img src="assets/party-popper.png" alt="" class="popper-img">
+					</div>
+					<div class="col about-us-text">
+						<h2 class="about-us-title">
+							30 декабря нам <br> <span class="blue">исполняется 2 года!</span>
+						</h2>
+						<p class="about-us-subtitle mt-4">
+							Совсем скоро нашему Хаусу исполнится 2 года! <br> На протяжении столь большого времени мы радовали Вас своим контентом. <br> Хотим сказать Вам большое спасибо, что Вы смотрите нас и принимаете участие в отборах. Мы продолжаем оставаться с Вами!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="chat-bot" id="entry">
+			<div class="container">
+				<div class="row row-cols-1 row-cold-md-2 row-cols-lg-2 justify-content-between chat-bot-stage">
+					<div class="col  chatbot-info">
+						<h2 class="chatbot-title">
+							Наш <span class="blue">чат-бот <br>для анкет</span>
+						</h2>
+						<p class="chatbot-subtitle mt-4">
+							Проверит Вашу анкету за 1 минуту, <br> без лишних ожиданий! Нажмите на <br> кнопку ниже и пишите анкету <br> прямо сейчас.
+						</p>
+						<div class="accordion mt-4" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        У тебя есть все шансы попасть к нам!
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        У нас нет особых критериев к отбору, поэтому Вы сможете легко попасть к нам!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Нам не важен стиль твоего скина
+      </button>
+    </h2>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Донатер ты или нет не имеет значения.
+      </button>
+    </h2>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Мы не требуем большого количества подписчиков в TikTok.
+      </button>
+    </h2>
+  </div>
+</div>
+					<a href="https://t.me/AuroraaTeamBot" class="btn btn-primary mt-4 chatbot-btn" target="_blank">Чат-бот для анкет</a>
+					</div>
+					<div class="col chat-bot-img">
+						<img src="assets/chat-bot.png" alt="" class="chatbot-image">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="instagram">
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 instagram-stage">
+					<div class="col instagram-info">
+						<h2 class="instagram-title">
+							Наш аккаунт в <span class="blue">Instagram</span>
+						</h2>
+						<p class="instagram-subtitle">
+							Рассказываем про предстоящие наборы, <br> отвечаем на Ваши сообщения, а также <br>уведомляем Вас о предстоящих <br>конкурсах и розыгрышах.
+						</p>
+						<button type="button" class="btn btn-primary mt-3 instagram-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  							Перейти в Instagram
+						</button>
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h1 class="modal-title fs-5" id="exampleModalLabel">Внимание!</h1>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body">
+						        Компания <span class="blue">Meta</span>, владеющая Instagram и Facebook, является запрещенной экстремистской организацией на территории РФ. Если Вы являетесь Гражданином РФ, пожалуйста, переходите по ссылкам на Instragram и Facebook с осторожностью и на свой страх и риск. 
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Вернуться</button>
+						        <a href="https://instagram.com/rbx.aurora" target="_blank" class="btn btn-primary">Я уверен(-а)</a>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="telegram-channel">
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 justify-content-between telegram-channel-stage">
+					<div class="col channel-image">
+						<img src="assets/telegram-channel.png" alt="">
+					</div>
+					<div class="col telegram-channel-info">
+						<h2 class="channel-title"><span class="blue">Новости</span><br> нашего Хауса</h2>
+						<p class="channel-subtitle mt-4">
+							Подписывайся на наш Telegram-канал, <br> чтобы быть вкурсе всех новостей. <br> Там мы расскажем Вам о всех <br> близжайших наборах, новых видео и о <br> многом другом.
+						</p>
+						<p class="channel-subtitle mt-3">
+							Также у нас есть чат для подписчиков, где Вы <br> можете пообщаться с другими подписчиками <br> и даже с участниками Хауса!
+						</p>
+						<div class="channel-buttons mt-4">
+							<a href="https://t.me/+ggCf0iZdFqgwYzAy" target="_blank" class="btn btn-primary channel-btn">Наш TG-канал</a>
+							<a href="https://t.me/+12XF5x1u-gc1MDAy" target="_blank" class="btn btn-outline-primary channel-btn">Наш чат для подписчиков</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 justify-content-between footer-stage">
+				<div class="col">
+					<a href="#!" class="navbar-brand footer-logo">AURORA <br> TEAM</a>
+					<p class="footer-sologan">Хаус, созданный для Вас</p>
+				</div>
+				<div class="col">
+					<div class="footer-section">
+						<h4 class="section-title">
+						Раздел для потребителей
+						</h4>
+						<a href="/for-members/for-members.html" class="btn btn-outline-secondary">Для участников</a>
+						<a href="/error.html" class="btn btn-outline-secondary">Для других Хаусов</a>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">© 2020-2022. AURORA TEAM. <br> Все права защищены.</p>
+		</div>
+	</footer>
+
+	<!-- Script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

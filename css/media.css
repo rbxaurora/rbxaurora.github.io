@@ -1,216 +1,47 @@
-@media (max-width: 1170px) {
-    .container {
-        width: 1080px;
-        margin: 0 auto;
-    }
+@media (max-width: 991.98px) {
+	.chat-bot-img {
+		display: none;
+	}
+
+	.channel-image {
+		display: none;
+	}
 }
 
-@media (max-width: 1090px) {
-    .container {
-        width: 820px;
-        margin: 0 auto;
-    }
+@media (max-width: 767.98px) {
+	.intro-text {
+		text-align: center
+	}
 
-    .main__about-us {
-        justify-content: space-between;
-    }
+	.stage-img {
+		text-align: center
+	}
 
-    .about-us__image {
-        margin-left: 0;
-    }
+	.party-popper {
+		text-align: center
+	}
 
-    .about-us__text {
-        margin-left: 0;
-    }
+	.birthday-numb {
+		text-align: center
+	}
 
-    .chat_bot__text {
-        margin: 0 auto;
-    }
+	.about-us-text {
+		text-align: center
+	}
 
-    .chat-bot__subtext {
-        text-align: center;
-    }
+	.chatbot-info {
+		text-align: center
+	}
 
-    .crit__item {
-        margin: 0 auto;
-        margin-top: 1rem;
-    }
+	.chatbot-btn {
+		text-align: center
+	}
 
-    .chat-bot__btn {
-        margin-left: auto;
-        margin-right: auto;
-    }
+	.instagram-info {
+		text-align: center
+	}
 
-    .chat-bot__image {
-        display: none;
-    }
-
-    .channel__image {
-        display: none;
-    }
-
-    .channel__text {
-        margin: 0 auto;
-        margin-top: 100px;
-    }
-
-    .channel__subtext {
-        text-align: center;
-    }
-
-    .channel__subitem {
-        text-align: center;
-    }
-
-    .channel__btns {
-        flex-direction: column;
-    }
-
-    .channel__btn {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .chatforsubs__btn {
-        margin-top: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media (max-width: 830px) {
-    .container {
-        width: 780px;
-    }
-
-    main {
-        width: 100vw;
-    }
-
-    .header__navmenu {
-        display: none;
-    }
-
-    .header__btn {
-        display: none;
-    }
-
-    .nav__btn {
-        display: block;
-        width: 8%;
-        background-color: transparent;
-        border: none;
-        filter: invert(100%);
-    }
-
-    .stage__content {
-        flex-direction: column;
-    }
-
-    .stage__title {
-        text-align: center;
-    }
-
-    .stage__text {
-        margin-top: -170px;
-    }
-
-    .header__subtitle {
-        text-align: center;
-    }
-
-    .stage-btn {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .stage__image {
-        margin: 0 auto;
-        margin-top: 5rem;
-    }
-
-    .main__about-us {
-        flex-direction: column;
-    }
-
-    .about-us__image {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .about-us__text {
-        margin-top: 140px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 780px) {
-    .container {
-        width: 540px;
-    }
-}
-
-@media (max-width: 570px) {
-    .container {
-        width: 360px;
-    }
-
-    .header__col {
-        display: none;
-    }
-
-    .stage__image {
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .chat-bot__title {
-        width: 340px;
-        text-align: center;
-    }
-
-    .chat-bot__subtext {
-        width: 330px;
-        text-align: center;
-    }
-
-    .crit__item {
-        width: 350px;
-    }
-
-    .crit__title::after {
-        content: "";
-    }
-
-    .crit__item::after {
-        content: "";
-    }
-
-    .crit-sortdown-1::after {
-        content: "\f0dd";
-        font-family: FontAwesome;
-        margin-left: -125px;
-    }
-
-    .crit-sortdown-2::after {
-        content: "\f0dd";
-        font-family: FontAwesome;
-        margin-left: -124px;
-    }
-
-    .crit-sortdown-3::after {
-        content: "\f0dd";
-        font-family: FontAwesome;
-        margin-left: -239px;
-    }
-
-    .footer__main {
-        flex-direction: column;
-    }
-
-    .footer__for {
-        margin-left: 0;
-        margin-top: 30px;
-    }
+	.telegram-channel-info {
+		text-align: center
+	}
 }

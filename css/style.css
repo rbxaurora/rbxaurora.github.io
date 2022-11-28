@@ -1,469 +1,258 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@900&family=Raleway:wght@300;400;600;700&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #1a1a1a;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
 }
 
-.container {
-    width: 1160px;
-    margin: 0 auto;
+/*Header and Main*/
+
+header {
+	background-color: #1a1a1a;
 }
 
-.header__navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
-    align-items: center;
-    z-index: 1000;
+main {
+	padding-top: 100px;
+	background-color: #1a1a1a;
 }
 
-.nav__btn {
-    display: none;
+.navbar {
+	background-color: #1a1a1a;
 }
 
-.header__name-site {
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 2.2rem;
-    text-decoration: none;
+.navbar-brand {
+	font-size: 2.4em;
+	line-height: 2.8rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	margin-right: 180px;	
 }
 
-.header__navmenu {
-    display: flex;
+.navbar-brand:hover {
+	color: #fff;
 }
 
-.header__menu-item {
-    margin-right: 4rem;
+.nav-link {
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	color: #fff;
 }
 
-.header__menu-item:last-child {
-    margin-right: 0;
+.nav-link:hover {
+	color: #d3d3d3;
 }
 
-.header__menu-link {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    color: #FFFFFF99;
-    text-decoration: none;
-    font-weight: 400;
+.main-intro {
+	margin-bottom: 100px;
 }
 
-.header__menu-link:hover {
-    color: #fff;
+.navbar-toggler-icon {
+	filter: invert(100%);
 }
 
-.header__menu-frs {
-    color: #fff;
-    font-weight: 700;
+.intro-title {
+	color: #fff;
+	font-weight: 400;
+	line-height: 3.6rem;
+	font-size: 60px;
 }
 
-.header__btn {
-    display: block;
-    cursor: pointer;
-    background-color: #FFFFFF;
-    border: none;
-    color: #1D92FF;
-    padding: 1rem 2.5rem;
-    font-size: 1.2rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    border-radius: 10px;
-    text-decoration: none;
+.blue {
+	font-weight: 700;
+	color: #1D92FF;
 }
 
-.header__col {
-    width: 1034px;
-    height: 414px;
-    background: linear-gradient(88.16deg, #222222 1.5%, #1a1a1a 82.37%);
-    position: absolute;
-    top: -100px;
-    left: -180px;
-    transform: rotate(45deg);
-    z-index: -1;
+.intro-text {
+	margin-top: 170px;
+	margin-bottom: 70px;
 }
 
-.header__stage {
-    margin-top: 19.7rem;
-    margin-bottom: 5rem;
+.intro-subtitle {
+	color: #d1d1d1;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 1.7rem;
+	margin-top: 25px;
 }
 
-.stage__content {
-    display: flex;
+.intro-button {
+	display: inline-block;
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 15px 40px;
+	color: #1D92FF;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	border-radius: 15px;
 }
 
-.stage__title {
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
+/*------------*/
+
+/*Abous Us*/
+
+.about-us {
+	background-color: #e5e5e5;
+	padding-top: 120px;
+	padding-bottom: 82px;
 }
 
-.stage__title-span {
-    color: #1D92FF;
-    font-weight: 700;
+.popper-img {
+	margin-bottom: 40px;
 }
 
-.header__subtitle {
-    color: #FFFFFFB2;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 1.2rem;
-    margin-top: 2rem;
+.about-us-title {
+	font-weight: 600;
+	font-size: 48px;
 }
 
-.stage-btn {
-    width: 14.5rem;
-    margin-top: 2rem;
-}
-
-.stage__image {
-    margin-left: auto;
-    margin-right: 1rem;
-    margin-top: -220px;
-}
-
-.main {
-    background-color: #e5e5e5;
-    padding-top: 10rem;
-}
-
-.main__about-us {
-    display: flex;
-    padding-bottom: 9.5rem;
-}
-
-.about-us__text {
-    margin-left: auto;
-}
-
-.main__about-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.3rem;
-    font-weight: 600;
-}
-
-.main__about-title-span {
-    color: #1D92FF;
-    font-weight: 700;
-}
-
-.about-us__subtext {
-    color: #01070DB2;
+.about-us-subtitle {
+	color: #01070DB2;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     line-height: 1.3rem;
     margin-top: 2rem;
 }
 
-.about-us__image {
-    margin-left: 8rem;
-    position: relative;
+/*-----------*/
+
+/*Chat Bot*/
+
+.chat-bot {
+	background-color: #e5e5e5;
+	padding-top: 40px;
+	padding-bottom: 80px;
 }
 
-.about-us__numb {
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10rem;
-    color: #1766af;
-    position: absolute;
-    top: 90px;
-    left: 70px;
-    background-color: #FFFFFF;
-    padding: 0 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #9f9f9f;
+.chatbot-info {
+	margin-top: 70px;
+	margin-bottom: 100px;
 }
 
-.main__chat-bot {
-    display: flex;
-    align-items: center;
-    padding-bottom: 80px;
+.chatbot-title {
+	font-weight: 600;
+	font-size: 48px;
 }
 
-.chat-bot__title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.3rem;
-    font-weight: 600;
-}
-
-.chat-bot__title-span {
-    color: #1D92FF;
-    font-weight: 700;
-}
-
-.chat-bot__subtext {
-    color: #01070DB2;
+.chatbot-subtitle {
+	color: #01070DB2;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     line-height: 1.3rem;
     margin-top: 2rem;
 }
 
-.chat-bot__crit {
-    margin-top: 1rem;
+.chatbot-btn {
+	font-size: 21px;
+	font-weight: 600;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
-.crit__item {
-    background-color: #eaeaea;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 15px 15px;
-    width: 30rem;
-    border-radius: 10px;
-    border: 1px solid #01070D1A;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    position: relative;
-    color: #01070d8e;
+/*------------*/
+
+/*Instagram*/
+
+.instagram {
+	background-color: #e5e5e5;
+	padding-top: 40px;
+	padding-bottom: 80px;
 }
 
-.crit__item:first-of-type {
-    background-color: #f2f2f2;
-    border: none;
-    color: #000;
+.instagram-title {
+	font-weight: 600;
+	font-size: 48px;
 }
 
-.crit-sortdown-1::after {
-    content: "\f0dd";
-    font-family: FontAwesome;
-    padding-left: 171px;
-    position: absolute;
-    top: 10px;
-}
-
-.crit-sortdown-2::after {
-    content: "\f0dd";
-    font-family: FontAwesome;
-    padding-left: 129px;
-    position: absolute;
-    top: 10px;
-}
-
-.crit-sortdown-3::after {
-    content: "\f0dd";
-    font-family: FontAwesome;
-    padding-left: 382px;
-    position: absolute;
-    top: 10px;
-}
-
-.crit__title {
-    color: #1d92ff;
-    font-weight: 600;
-}
-
-.crit__subtext {
-    padding-left: 10px;
-    padding-top: 9px;
-    line-height: 1.2rem;
-}
-
-.crit__title::after {
-    content: "\f0de";
-    font-family: FontAwesome;
-    padding-left: 140px;
-    position: absolute;
-    top: 18px;
-    color: #000;
-}
-
-.chat-bot__btn {
-    display: block;
-    width: 179px;
-    margin-top: 2rem;
-    background-color: #1D92FF;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 15px 52px;
-    border-radius: 10px;
-}
-
-.chat-bot__image {
-    margin-left: auto;
-}
-
-.main__telegram-channel {
-    display: flex;
-    align-items: center;
-    padding-bottom: 100px;
-}
-
-.channel__text {
-    margin-left: auto;
-}
-
-.channel__title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.3rem;
-    font-weight: 600;
-}
-
-.channel__title-span {
-    color: #1D92FF;
-    font-weight: 700;
-}
-
-.channel__subtext {
-    color: #01070DB2;
+.instagram-subtitle {
+	color: #01070DB2;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     line-height: 1.3rem;
-    margin-top: 2rem;
+    margin-top: 2rem;	
 }
 
-.channel__subitem {
-    color: #01070d6d;
+.instagram-btn {
+	font-size: 21px;
+	font-weight: 600;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.modal-title {
+	font-weight: 700;
+}
+
+/*-------------*/
+
+/*Telegram Channel*/
+
+.telegram-channel {
+	background-color: #e5e5e5;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.channel-title {
+	font-weight: 600;
+	font-size: 48px;
+}
+
+.telegram-channel-info {
+	margin-top: 110px;
+}
+
+.channel-subtitle {
+	color: #01070DB2;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     line-height: 1.3rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin-top: 2rem;	
 }
 
-.channel__subitem::before {
-    content: "\f00c";
-    font-family: FontAwesome;
-    margin-left: -30px;
-    margin-right: 10px;
+.channel-btn {
+	font-size: 21px;
+	font-weight: 600;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 15px;
 }
 
-.channel__btns {
-    display: flex;
+/*--------------*/
+
+/*Footer */
+
+footer {
+	background-color: #1a1a1a;
+	color: #fff;
+	margin-bottom: 0;
 }
 
-.channel__btn {
-    display: block;
-    width: 238px;
-    margin-top: 2rem;
-    background-color: #1D92FF;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 15px 52px;
-    border-radius: 10px;
-    margin-right: 25px;
+.footer-logo {
+	display: inline-block;
+	margin-top: 40px;
 }
 
-.chatforsubs__btn {
-    display: block;
-    width: 348px;
-    margin-top: 2rem;
-    background-color: #fff;
-    border: 1px solid #1D92FF;;
-    color: #1D92FF;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 15px 52px;
-    border-radius: 10px;
+.footer-sologan {
+	color: #a4a4a4;
+	font-size: 21px;
 }
 
-.footer {
-    background-color: #303030;
-    padding-top: 50px;
+.footer-section {
+	margin-top: 40px;
 }
 
-.container__footer {
-    width: 70%;
-    margin: 0 auto;
+.section-title {
+	font-weight: 700;
+	margin-bottom: 15px;
 }
 
-.footer__main {
-    display: flex;
+.copyright {
+	display: inline-block;
+	color: #a4a4a4;
+	font-size: 18px;
+	margin-bottom: 25px;
 }
 
-.footer__sitename {
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 2.2rem;
-    text-decoration: none;
-}
-
-.footer__sologan {
-    color: #dbdbdb;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-    margin-top: .5rem;
-}
-
-.footer__for {
-    display: flex;
-    flex-direction: column;
-    margin-left: 120px;
-}
-
-.footer_for-title {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-    margin-top: .2rem;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.footer__for-members {
-    color: #cdcdcdb2;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-    margin-top: .8rem;
-    text-decoration: none;
-}
-
-.footer__for-houses {
-    color: #cdcdcdb2;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-    margin-top: .3rem;
-    text-decoration: none;
-}
-
-.footer__for-members:hover {
-    color: #fff;
-}
-
-.footer__for-houses:hover {
-    color: #fff;
-}
-
-.footer__hr {
-    border: none;
-    border-bottom: 1px solid #9f9f9f;
-    margin-top: 3rem;
-}
-
-.footer_copy {
-    margin-top: 60px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.copy__text {
-    color: #e8e8e8;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-}
-
-.copy__years {
-    color: #e8e8e8;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-    margin-top: 0.3rem;
-}
+/*--------------*/
